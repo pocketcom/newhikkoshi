@@ -1,0 +1,326 @@
+@charset "utf-8";
+body{
+	margin: 0;
+}
+p{
+	margin:0;
+}
+
+header{
+	width:100%;
+	height:60px;
+	background-color: black;
+	position: fixed;
+	z-index: 10;
+}
+.headerwrapper{
+	color: white;
+}
+.headericon{
+	float:left;
+}
+.headericon img{
+	height:50px;
+	padding-left:20px;
+}
+.headertel{
+	float:right;
+}
+.headertel img{
+	height:50px;
+	padding-top: 5px
+}
+.contents{
+	width:100%;
+	height:auto;
+	padding-top:30px;
+	margin:0 auto;
+	background-color: #eaeaea;
+	padding-bottom: 100px;
+}
+.contentstop{
+		width:100%;
+		height:500px;
+		background-image: url(/Users/apple/Desktop/atomhtml/0.5x/contents-top2.png);
+		background-size:cover;
+}
+.contentstop h1{
+	 font-family : ヒラギノ角ゴ Std;
+	 margin-top:0px;
+	 padding-top:100px;
+	 padding-left:30px;
+  font-size : 60px;
+  letter-spacing : -5.2px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  text-shadow : 7px 7px 5px rgba(0, 0, 0, 0.75);
+}
+.contentsmiddle{
+	width:100%;
+	height:130px;
+	margin:0px;
+	text-align: center;
+}
+.kyugyo-box p{
+  font-family : ヒラギノ角ゴ StdN;
+  font-size : 65px;
+  letter-spacing : -3.25px;
+  text-transform : uppercase;
+  position : relative;
+  top : -50px;
+  color : red;
+	text-shadow : 7px 7px 5px rgba(0, 0, 0, 0.75);
+}
+.middle-kyugyo{
+	height:200px;
+}
+.kyugyo-box{
+	height:80px;
+	background : #FFFF00;
+  opacity : 0.8;
+	height: 109px;
+}
+.kyugyo-box span{
+	 font-family : ヒラギノ角ゴ StdN;
+  font-size : 33px;
+  color : #000000;
+  text-decoration : underline;
+	position:relative;
+	top:-20px;
+}
+.kyugyoo-oshirase{
+	display:inline-block;
+	position: relative;
+	top: -90px;
+}
+.contents-bottom{
+	width:100%;
+	max-width:1170px;
+	margin:0 auto;
+	text-align: center;
+}
+.reason-box{
+	width:90%;
+	height:auto;
+	background-color: white;
+	margin: 0 auto;
+}
+.reasontitle{
+	  font-family : ヒラギノ角ゴ StdN;
+  font-size : 105px;
+  position : relative;
+  top : -9px;
+  color : #000000;
+  color : rgb(0, 0, 0);
+  border-bottom: solid 5px black;
+	margin-bottom: 0;
+}
+.reasonsubtitle{
+	  font-family : ヒラギノ丸ゴ Pro;
+  font-size : 40px;
+  letter-spacing : -2px;
+  text-transform : uppercase;
+  position : relative;
+  top : -20px;
+  color : #000000;
+  color : rgb(0, 0, 0);
+	margin-bottom: 0;
+	margin-top:10px;
+}
+.reason-boxes{
+	width:100%;
+	height: auto;
+	flex-wrap:wrap;
+	display:flex;
+	justify-content: center;
+}
+.reason-boxs{
+	  background :#fcfcfc;
+  width: 45%;
+  height : 400px;
+  box-shadow : 7px 7px 5px ;
+	margin:20px;
+}
+.reasontext1{
+	font-family : 小塚ゴシック Pr6N;
+  font-size : 40px;
+  letter-spacing : -2px;
+  text-transform : uppercase;
+  position : relative;
+	border-bottom: solid 1px black;
+  top : -9px;
+}
+.reasontext2{
+	font-family : 小塚ゴシック Pr6N;
+  font-size : 26px;
+  letter-spacing : -1.3px;
+  text-transform : uppercase;
+  position : relative;
+  top : -9px;
+	text-align: left;
+	padding:0 30px;
+
+}
+.reason-boxs img{
+	width:80%;
+}
+.kakakubox{
+	width:90%;
+	margin: 50px auto;
+	height: auto;
+	background-color: white;
+padding-bottom: 100px;
+}
+.kakakuboxtext{
+	  font-family : ヒラギノ角ゴ StdN;
+  font-size : 60px;
+  position : relative;
+  top : 20px;
+  color : #000000;
+  color : rgb(0, 0, 0);
+  border-bottom: solid 5px black;
+	margin-bottom: 20px;
+}
+table {
+	width: 90%;
+  border-collapse: collapse;
+  border: solid 1px black;/*表全体を線で囲う*/
+	margin:0px auto;
+	  position : relative;
+		  top : 20px;
+}
+table th, table td {
+  border: dashed 1px black;/**/
+  /*破線 1px オレンジ*/
+	font-size: 18px;
+	font-weight: 700;
+}
+.-num {
+    font-size: 18px;
+    font-size: 1.8rem;
+    color: #ea4746;
+    font-weight: 700;
+    display: inline-block;
+    padding-left: .2em;
+	}
+.hikakubox{
+	width:100%;
+	margin-top:50px;
+	height: auto;
+}
+.hikakuboxes{
+	width:100%;
+	height: auto;
+	flex-wrap:wrap;
+	display:flex;
+	justify-content: center;
+}
+.hikakuboxes3{
+	width: 30%;
+}
+.hikakuboxes3 img{
+	width:80%;
+}
+.ryoukinhikaku{
+	font-family : ヒラギノ丸ゴ Pro;
+font-size : 40px;
+}
+.yasukusurukotsu{
+	font-family : ヒラギノ丸ゴ Pro;
+font-size : 40px;
+}
+.sithumon{
+	font-family : ヒラギノ丸ゴ Pro;
+font-size : 30px;
+border-bottom: dashed 2px black;
+padding-top: 15px;
+}
+.kotae{
+	width:80%;
+	margin:0 auto;
+	padding-top: 15px;
+	font-size : 14px;
+}
+.service{
+	width:90%;
+margin: 50px auto;
+height: auto;
+background-color: white;
+padding-bottom: 100px;
+}
+.service-text{
+	font-family : ヒラギノ丸ゴ Pro;
+font-size : 90px;
+  border-bottom: solid 5px black;
+
+}
+.service-box{
+width:100%;
+height: auto;
+flex-wrap:wrap;
+display:flex;
+justify-content: center;
+margin-top: 20px;
+}
+.service-boxes{
+	margin-top:40px;
+	width:80%;
+		text-align: left;
+		background-color: #f1f1f1;
+box-shadow: 3px 3px 1px;
+}
+.service-title{
+	text-align: center;
+	font-family : ヒラギノ丸ゴ Pro;
+font-size : 35px;
+}
+.service-boxes img{
+	width:40%;
+	float:left;
+}
+.servicenaiyo{
+	font-family : 小塚ゴシック Pr6N;
+  font-size : 25px;
+}
+.qanda{
+	width:90%;
+margin: 50px auto;
+height: auto;
+background-color: white;
+padding-bottom: 100px;
+}
+.qanda-title{
+	font-family : ヒラギノ丸ゴ Pro;
+font-size : 80px;
+  border-bottom: solid 5px red;
+	color:red;
+
+}
+.qred{
+	color:red;
+	font-size:30px;
+}
+.qtitle{
+	padding-bottom:10px;
+	border-bottom: dashed 2px red;
+}
+.akotae{
+font-size:15px;
+	border-bottom: solid 2px black;
+	padding-bottom:10px
+
+}
+.kaisya-gaiyo{
+	font-size:12px;
+}
+.footernavi{
+	width:50%;
+	position: fixed;
+	top: 80%;
+left: 60%;
+	z-index: 14;
+}
+.footernavi img{
+	max-width:400px;
+	width:100%;
+}
