@@ -41,7 +41,7 @@ header{
 .contentstop{
 		width:100%;
 		height:500px;
-		background-image: url(/Users/apple/Desktop/atomhtml/0.5x/contents-top2.png);
+		background-image: url(https://github.com/pocketcom/newhikkoshi/blob/master/0.5x/contents-top2.png?raw=true);
 		background-size:cover;
 }
 .contentstop h1{
